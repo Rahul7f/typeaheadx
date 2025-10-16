@@ -3,7 +3,7 @@
 [![Pub Version](https://img.shields.io/pub/v/typeaheadx.svg)](https://pub.dev/packages/typeaheadx)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Flutter Platform](https://img.shields.io/badge/platform-flutter-blue.svg)](https://flutter.dev)
-[![GitHub stars](https://img.shields.io/github/stars/<your-github-username>/typeaheadx.svg?style=social)](https://github.com/<your-github-username>/typeaheadx)
+[![GitHub stars](https://img.shields.io/github/stars/Rahul7f/typeaheadx.svg?style=social)](https://github.com/<your-github-username>/typeaheadx)
 
 A powerful, dependency-free **TypeAhead widget for Flutter** — supporting async API search, pagination, keyboard navigation, and full custom styling.
 
@@ -261,8 +261,8 @@ See [LICENSE](LICENSE) for details.
 ## ❤️ Maintainer
 
 **<Your Name>**  
-GitHub → [https://github.com/<your-github-username>](https://github.com/<your-github-username>)  
-Twitter → [@<your-handle>](https://twitter.com/<your-handle>)
+GitHub → [https://github.com/Rahul7f](https://github.com/Rahul7f)  
+Twitter → [@<your-handle>](https://twitter.com/rsin_2105)
 
 ---
 

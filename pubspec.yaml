@@ -44,9 +44,9 @@ topics:
   - flutter
   - widget
 
-screenshots:
-  - description: "TypeAheadX widget with async API and pagination"
-    path: screenshots/demo.png
+#screenshots:
+#  - description: "TypeAheadX widget with async API and pagination"
+##    path: screenshots/demo.png
 
 funding:
   - https://www.buymeacoffee.com/<your-handle>
