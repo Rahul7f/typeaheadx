@@ -1,10 +1,61 @@
 name: typeaheadx
-description: A powerful, extensible TypeAhead widget with keyboard navigation, async API support, and pagination for Flutter.
+description: >
+  A powerful, customizable, and dependency-free TypeAhead widget for Flutter.
+  Supports async search, pagination, keyboard navigation, and debounced queries —
+  perfect for APIs or large local lists.
+
 version: 0.0.1
-homepage: https://github.com/Rahul7f/typeaheadx
-repository: https://github.com/Rahul7f/typeaheadx
-issue_tracker: https://github.com/Rahul7f/typeaheadx/issues
+homepage: https://github.com/<your-github-username>/typeaheadx
+repository: https://github.com/<your-github-username>/typeaheadx
+issue_tracker: https://github.com/<your-github-username>/typeaheadx/issues
+documentation: https://pub.dev/documentation/typeaheadx/latest/
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.16.0"
 
 dependencies:
   flutter:
     sdk: flutter
+
+  # Optional: to enable smooth async and state management without GetX.
+  # You can remove these if you handle all state manually.
+  flutter_hooks: ^0.20.5
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  # Add example/demo assets if you ever include screenshots or icons.
+  # - assets/example_image.png
+
+# -------------------------
+# Additional pub.dev metadata (helps ranking and discoverability)
+# -------------------------
+topics:
+  - search
+  - autocomplete
+  - typeahead
+  - flutter
+  - widget
+
+screenshots:
+  - description: "TypeAheadX widget with async API and pagination"
+    path: screenshots/demo.png
+
+funding:
+  - https://www.buymeacoffee.com/<your-handle>
+  - https://github.com/sponsors/<your-github-username>
+
+# Optional: Add some keywords for discoverability
+keywords:
+  - searchbar
+  - async-search
+  - pagination
+  - typeahead
+  - autocomplete
