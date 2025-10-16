@@ -42,7 +42,6 @@ class _TypeAheadXDemoPageState extends State<TypeAheadXDemoPage> {
     'Result 8: Other Siblings, Ignoring',
     'Result 9: The Bright Sun, And',
     'Result 10: Finds A Small Fish.', // End of Page 1
-
     // Page 2: 8 items (Indices 10-17)
     'Result 11: Meanwhile, Back On The Shore,',
     'Result 12: A Squirrel Buries Its Nuts,',
@@ -65,13 +64,10 @@ class _TypeAheadXDemoPageState extends State<TypeAheadXDemoPage> {
     'Result 10: Finds A Small Fish.', // End of Page 1
   ];
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('TypeAheadX Demo'),
-      ),
+      appBar: AppBar(title: const Text('TypeAheadX Demo')),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(
@@ -80,14 +76,11 @@ class _TypeAheadXDemoPageState extends State<TypeAheadXDemoPage> {
             SizedBox(
               width: 300,
               child: TypeAheadX(
-                onChanged: (value) {
-
-                },
+                onChanged: (value) {},
                 itemList: [],
                 hintText: "Type # & Select",
                 pagination: true,
-                style: TypeAheadXStyle(
-                ),
+                style: TypeAheadXStyle(),
                 // fetchSuggestions: (d) async {
                 //   return await getvalue("", 1, 10);
                 // },
@@ -109,6 +102,7 @@ class _TypeAheadXDemoPageState extends State<TypeAheadXDemoPage> {
       ),
     );
   }
+
   Future<List<String>> getvalue(String value, int page, int pageSize) async {
     debugPrint("API - CALL");
     // Simulate network delay
@@ -123,7 +117,7 @@ class _TypeAheadXDemoPageState extends State<TypeAheadXDemoPage> {
       // Return the next 8 items (indices 10 to 17).
       // The second argument (18) is the exclusive end index.
       return _allItems.sublist(10, 20);
-    }else if (page == 3) {
+    } else if (page == 3) {
       debugPrint("fjfjfj ");
       // Return the next 8 items (indices 10 to 17).
       // The second argument (18) is the exclusive end index.

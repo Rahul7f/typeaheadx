@@ -68,7 +68,8 @@ class _TypeAheadXState extends State<TypeAheadX> {
   final SearchController _searchController = SearchController();
   final ScrollController _scrollController = ScrollController();
 
-  final StreamController<List<String>> _resultsStream = StreamController.broadcast();
+  final StreamController<List<String>> _resultsStream =
+      StreamController.broadcast();
   final StreamController<bool> _loadingStream = StreamController.broadcast();
 
   final List<GlobalKey> _itemKeys = [];
@@ -241,10 +242,7 @@ class _TypeAheadXState extends State<TypeAheadX> {
         if (states.contains(WidgetState.focused)) {
           return const BorderSide(color: Colors.blue, width: 1);
         }
-        return  BorderSide(
-          color: widget.style.borderColor,
-          width: 1,
-        );
+        return BorderSide(color: widget.style.borderColor, width: 1);
       }),
       barShape: WidgetStatePropertyAll(
         RoundedRectangleBorder(borderRadius: BorderRadius.circular(6)),
@@ -269,9 +267,9 @@ class _TypeAheadXState extends State<TypeAheadX> {
 
   /// Stream-driven suggestions builder.
   Future<List<Widget>> _suggestionsBuilder(
-      BuildContext context,
-      SearchController controller,
-      ) async {
+    BuildContext context,
+    SearchController controller,
+  ) async {
     return [
       StreamBuilder<bool>(
         stream: _loadingStream.stream,
@@ -282,7 +280,9 @@ class _TypeAheadXState extends State<TypeAheadX> {
             builder: (context, snapshotResults) {
               final results = snapshotResults.data ?? [];
               _itemKeys.clear();
-              _itemKeys.addAll(List.generate(results.length, (_) => GlobalKey()));
+              _itemKeys.addAll(
+                List.generate(results.length, (_) => GlobalKey()),
+              );
 
               if (isLoading) {
                 return const Center(
