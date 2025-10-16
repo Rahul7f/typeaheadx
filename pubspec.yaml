@@ -5,9 +5,9 @@ description: >
   perfect for APIs or large local lists.
 
 version: 0.0.2
-homepage: https://github.com/<your-github-username>/typeaheadx
-repository: https://github.com/<your-github-username>/typeaheadx
-issue_tracker: https://github.com/<your-github-username>/typeaheadx/issues
+homepage: https://github.com/Rahul7f/typeaheadx
+repository: https://github.com/Rahul7f/typeaheadx
+issue_tracker: https://github.com/Rahul7f/typeaheadx/issues
 documentation: https://pub.dev/documentation/typeaheadx/latest/
 
 environment:
@@ -50,7 +50,7 @@ topics:
 
 funding:
   - https://www.buymeacoffee.com/<your-handle>
-  - https://github.com/sponsors/<your-github-username>
+  - https://github.com/sponsors/Rahul7f
 
 # Optional: Add some keywords for discoverability
 keywords:
