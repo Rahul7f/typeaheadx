@@ -1,0 +1,10 @@
+name: typeaheadx
+description: A powerful, extensible TypeAhead widget with keyboard navigation, async API support, and pagination for Flutter.
+version: 0.0.1
+homepage: https://github.com/Rahul7f/typeaheadx
+repository: https://github.com/Rahul7f/typeaheadx
+issue_tracker: https://github.com/Rahul7f/typeaheadx/issues
+
+dependencies:
+  flutter:
+    sdk: flutter
